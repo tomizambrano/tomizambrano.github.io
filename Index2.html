@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pretty things.css" rel="stylesheet">
+    <title>Actual Portafolio :D</title>
+</head>
+
+<body>
+
+    <nav class="header" id="header">
+            <img id="logo" src=img/logo.png alt="Logo">
+                <ul class="navegacion">
+                    <li><a href="#about">Who am I?</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="">Social Media</a></li>
+                    <li><a href="">Contact Me!</a></li>
+                </ul>
+    </nav>
+
+    <div id="presentacion">
+        <p> <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            Hi! Im Pablo and I'm a certified web developer.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    </div>
+
+    <div id="about">
+        <p>
+        <br>
+        <table>
+            <tr>
+                <td class="titulo"><br><u>What Do I Do?</u></td>
+                <td class="titulo"><br><u>How Do I Do It?</u></td>
+                <td class="titulo"><br><u>Where Do I Do It?</u></td>
+            </tr>
+            <tr>
+                <td class="explaining">
+                    <p> Sketch and design your next website. <br>
+                        <br>
+                        Data-base construction for website systems. <br>
+                        <br>
+                        Provide help and feedback regarding your work. <br>
+                    </p>
+                </td> 
+                <td class="explaining">
+                    <p> <br>
+                        <br>
+                        You can contact me throught the survey I'll be leaving at the end of this page, especifing what you're looking and any extra parameters you might need.<br>
+                        <br>
+                        I'll leave my contact info at the end of the this page so we can schedule a proper meeting and chat it up!<br>
+                        <br>
+                    </p>
+                </td>
+                <td class="explaining">
+                    <p> I'm currently operating with Visual Studio Code.<br>
+                        <br>
+                        Formerly adquiring and using knowledge on Atom.<br>
+                        <br>
+                        Definitely from expression, I like to create pleasent things.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <section class="exp" id="exp">
+        <h1 class="header-exp">Experience</h1>
+        <div class="contenedor-exp">
+            <img
+                src="img/data-logo.svg"
+                alt="Data Analyst :B"
+                class="icon"
+                />
+            <img 
+                src="img/design-logo.svg"
+                alt="Designer :O"
+                class="icon"
+                />
+            <img
+                src="img/database-logo.svg"
+                alt="Data Base builder"
+                class="icon"
+                />
+            </a>
+        </div>
+    </section>   
+
+    <div class="about">
+        <p>
+        <table>
+            <tr>
+                <td class="titulo"><br>Data Analysis</td>
+                <td class="titulo"><br>Web Design</td>
+                <td class="titulo"><br>Database Construction</td>
+            </tr>
+            <tr>
+                <td class="explaining"> <BR>
+                </td> 
+                <td class="explaining"> <BR>
+                </td>
+                <td class="explaining"> <BR>
+                </td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <section class="exp" id="social">
+        <h1 class="header-exp">Social Media</h1>
+        <div class="contenedor-exp">
+            <a href="portafolio.html">
+            <img 
+                src="img/linkedin.svg"
+                alt="Linked In"
+                class="icon"
+                /> </a>
+            <a href="portafolio.html">
+            <img
+                src="img/instagram.svg"
+                alt="Instagram"
+                class="icon"
+                /> </a>
+            <a href="portafolio.html">
+            <img
+                src="img/discord.svg"
+                alt="Discord"
+                class="icon"
+                />
+            </a>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 id="contactme">Contact Me!</h2>
+        <div class="formulario-contact-contenedor">
+            <div class="formulario-contact">
+                    <form action="/action_page.php" autocomplete="on" method="post">
+                        <div class="control-formulario">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="sender-name"
+                                placeholder="Write your full name..."
+                                class="input-field"
+                                required
+                                />
+                        </div>
+                        <div class="control-formulario">
+                            <label for="email">Email</label>
+                            <input id="email"
+                                type="email"                
+                                name="sender-email"
+                                placeholder="Leave your full email..."
+                                class="input-field"
+                                required
+                            />
+                        </div>
+                        <div class="control-formulario">
+                            <label for="seleccionarmotivo">Type of question</label>
+                            <select id="motivo" name="motivo" required>
+                                <option value="webdevelopment">Web Development</option>
+                                <option value="data">Data Analysis</option>
+                                <option value="database">Database Construction</option>
+                                <option value="otro">Otro</option>
+                            </select>              
+                        </div>
+                        <div class="control-formulario">
+                            <label for="mensaje">Description</label>
+                            <textarea id="mensaje"
+                                name="mensaje"
+                                cols="60"
+                                rows="10"
+                                placeholder="Feel free to ask anything..."                
+                                class="input-field"
+                                required
+                            ></textarea>
+                        </div>
+                    <input id="submit-btn"
+                        type="submit"
+                        value="Enviar"
+                        class="submit-btn"
+                    />
+                    <input id="reset-btn"
+                        type="reset"
+                        onclick="alert('mirá que se borra todo')"
+                        value="Reset"
+                        class="reset-btn">
+                    </form>
+                </div>
+            </div>
+        </section>
